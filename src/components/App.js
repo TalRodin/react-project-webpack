@@ -5,6 +5,17 @@ class App extends Component {
        return (            
             <div>                
                   <h1>REACT!</h1>
+                  <svg  width="600" height="600" >
+                  <path fill="none" stroke="black" 
+                        d="M500 50
+                           c 85 -20, 40 50, -3 -1 z
+                           c -15 -80, -50 -50, -5 -3 z
+                           c 90 -30, 15 -65, -2 2 z
+                           c -45 50, 40 45, 1 2 z
+                           c -70 50, -50 -40, 0.5 3 z
+                           " />
+                  <circle cx="500" cy="50" r="3" fill="black"/>
+                  </svg>
             </div>);    
             }
 } 
